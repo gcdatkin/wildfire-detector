@@ -10,7 +10,7 @@ from catboost import CatBoostClassifier
 
 def predict_hotspot(latitude, longitude, date):
         
-    API_KEY = 'KLVKNlEgezMFZUhLNCrgSxFJfTgGbOAx'
+    API_KEY = 'lwZNGMNjvoepVOKTVkmWJocdcPPOiroW'
 
     us_stations = pd.read_csv('resources/us_stations.csv')
 
